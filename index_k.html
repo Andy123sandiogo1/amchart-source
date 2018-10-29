@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>amCharts V4 Example - simple-line-chart</title>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="charts">
+      <div class="row option">
+        <ul>
+          <li class="noborder"><a href="index_k.html#" onclick="thisweek()">This week</a></li>
+          <li><a href="index_k.html#" onclick="today()">Today</a></li>
+        </ul>
+        <ul>
+          <li class="noborder"><a href="index_k.html#" onclick="last7d()">Last 7 days</a></li>
+          <li><a href="index_k.html#" onclick="last24h()">Last 24 hours</a></li>
+          <li><a href="index_k.html#" onclick="last12h()">Last 12 hours</a></li>
+          <li><a href="index_k.html#" onclick="last4h()">Last 4 hours</a></li>
+          <li><a href="index_k.html#" onclick="last1h()">Last 1 hour</a></li>
+          <li><a href="index_k.html#" onclick="last15m()">Last 15 minutes</a></li>
+        </ul>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 cus">
+          <div class="card">
+            <div id="chart_flow" class="chartdiv"></div>
+          </div>
+        </div>
+        <div class="col-sm-6 cus">
+          <div class="card">
+            <div id="chart_top5" class="chartdiv"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 cus">
+          <div class="card">
+            <div id="chart_in" class="chartdiv"></div>
+          </div>
+        </div>
+        <div class="col-sm-6 cus">
+          <div class="card">
+            <div id="chart_out" class="chartdiv"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="moment.js"></script>
+    <script src="randomColor.js"></script>
+    <script src="core.js"></script>
+    <script src="charts.js"></script>
+    <script src="themes/animated.js"></script>
+    <script src="themes/kelly.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: Archivo Narrow;
+    background-color: #f0f0f0 !important;
+    overflow: hidden;
+    margin: 0;
+}
+
+.charts {
+    width: 1300px;
+    margin: 0 20px;
+}
+
+.cus {
+    padding: 0 !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 98%;
+    margin: 5px auto;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.chartdiv {
+    height: 300px;
+    width: 100%;
+}
+
+.option {
+    background-color: #f0b0c0;
+}
+
+ul {
+    list-style: none;
+    margin: 10px 10px !important;
+    height: 20px;
+}
+
+li {
+   float: right;
+   padding: 0 5px;
+   border-right: 1px solid black;
+}
+
+.noborder {
+    border: none;
+}
